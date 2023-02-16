@@ -1,6 +1,4 @@
-*{
-	font-family:Tahoma, Verdana, Helvetica, sans-serif; 
-	font-size:11px; color:#D4D1CD; background-color:inherit;
+
 }
 body
 {
@@ -8,12 +6,6 @@ body
 	background-image:url(images/background-image.jpg);
 	background-repeat:no-repeat; color:#fff;
 }
-div.spacer
-{
-	clear: both;
-}
-img {
-	border:none;
 }
 a
 {
@@ -102,8 +94,4 @@ li
 {
 	padding-left:50px;
 }
-.footer
-{
-	padding:22px 0 22px 0; background-color:#000;
-	color:#CCCCCC; line-height:18px;
-}
+
