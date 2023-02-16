@@ -17,11 +17,6 @@ img {
 }
 a
 {
-	color:#ffffff;
-	text-decoration:none;
-	padding:0 1px 0 1px;
-	background-color:inherit;
-}
 a:hover
 {
 	text-decoration:underline;
