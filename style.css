@@ -1,15 +1,13 @@
 
-}
-body
-{
+
+body{
 	background-image:url(images/background-image.jpg);
 	background-repeat:no-repeat; color:#fff;
-}
-}
+};
 a
 {
 a:hover
-{
+;
 	text-decoration:underline;
 }
 p
