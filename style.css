@@ -6,14 +6,16 @@ body{
 };
 a
 {
-a:hover
+a: hover
 ;
-	text-decoration:underline;
+	text-decoration: underline;
 }
 p
 {
 	margin:0 0 0 0;
 	padding:0 0 0 0;
+	font-family: monospace;
+	font-size: 20px;
 }
 ul
 {
