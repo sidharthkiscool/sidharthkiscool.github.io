@@ -46,6 +46,12 @@
 		    font-family: monospace;
 		    cursor: pointer;
 	    }
+
+	    .buttons {
+		    border: 2px solid black;
+		    margin: 20px;
+		    padding: 5px;
+	    }
     </style>
 	  
   </head>
@@ -68,11 +74,29 @@
     <a href="#">Demo Game 6</a>
 </div>
 
-	<button class="orange-button"; onclick="orangeTheme()">Orange Background</button>
+<div class="buttons">
+	
+	<div>
+		
+		<button class="orange-button"; onclick="orangeTheme()">Orange Background</button>
 
-	<button class="red-button"; onclick="redTheme()">Red Background</button>
+	</div>
+	
 
-	<button class="purple-button"; onclick="purpleTheme()">Purple Background</button>
+	<div>
+	
+		<button class="red-button"; onclick="redTheme()">Red Background</button>
+
+	</div>
+	
+
+	<div>
+
+		<button class="purple-button"; onclick="purpleTheme()">Purple Background</button>
+
+	</div>
+	
+</div>
 
 	<script>
 		var theBackground = document.body;
