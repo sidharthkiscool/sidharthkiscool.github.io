@@ -2,8 +2,11 @@ body {
 	
 }
 
+button {
+	text-align: center;
+}
+
 a {
-	a: hover;
 	text-decoration: underline;
 }
 
