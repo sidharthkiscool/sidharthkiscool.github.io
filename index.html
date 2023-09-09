@@ -11,6 +11,11 @@
 		    background-color: white;
 	    }
 
+		.button-size {
+			width: 150px;
+			height: 25px;
+		}
+
 	    .orange-theme {
 		    background-color: orange;
 	    }
@@ -56,19 +61,23 @@
 		    margin: 500px 20px;
 		    padding: 100px 70px;
 		    position: relative;
-    		    transform: translateY(-180px);
+    		transform: translateY(-180px);
+			display: flex;
+			justify-content: space-evenly;
+			align-items: center;
+			flex-direction: column;
 	    }
 
 	    .echo-button {
-		    border: 3px solid #9a8c98;
+		    border: 3px solid #2f6e54;
 		    border-radius: 8px;
-		    background-color: #9a8c98;
+		    background-color: #2f6e54;
 		    color: black;
 		    transition-duration: 0.5s;
 	    }
 
 	    .echo-button:hover {
-		    background-color: #ef8354;
+		    background-color: #1b2f75;
 	    }
 
 	    .gba-button {
@@ -91,10 +100,6 @@
         <p class="menu"><a href="#">Welcome Guest</a> | <a href="#">LOG IN</a> | <a href="#">SIGN UP</a> | <a href="#">GAMES</a> | <a href="https://daddy.com">COMMUNITY</a> | <a href="#">SUPPORT</a> | <a href="#">STORES</a></p>
       </div>
     </div>
-    <p>
-    </p>
-    <p>
-    </p>
 <div class="right-div-wrapper">
     <a href="#">Demo Game 3</a>
     <a href="#">Demo Game 4</a>
@@ -106,35 +111,35 @@
 	
 	<div>
 		
-		<button style="text-align: center; transform: translateY(-60px); margin-top: 20px; margin-bottom: 20px"; class="orange-button"; onclick="orangeTheme()">Orange Background</button>
+		<button class="button-size orange-button"; onclick="orangeTheme()">Orange Background</button>
 
 	</div>
 	
 
 	<div>
 	
-		<button class="red-button"; onclick="redTheme()">Red Background</button>
+		<button class="button-size red-button"; onclick="redTheme()">Red Background</button>
 
 	</div>
 	
 
 	<div>
 
-		<button class="purple-button"; onclick="purpleTheme()">Purple Background</button>
+		<button class="button-size purple-button"; onclick="purpleTheme()">Purple Background</button>
 
 	</div>
 
 
-	<div style="margin-top: 20px; margin-bottom: 20px; text-align: center">
+	<div>
 
-		<button class="gba-button"; href="https://sidharthkiscool.github.io/gba/">GBA</button>
+		<button class="button-size gba-button"; href="https://sidharthkiscool.github.io/gba/">GBA</button>
 		
 	</div>
 
 
-	<div style="margin-top: 20px; margin-bottom: 20px; text-align: center">
+	<div>
 
-		<button class="3kh0-button"; href="https://sidharthkisbetter.netlify.app/">3kh0</button>
+		<button class="button-size echo-button"; href="https://sidharthkisbetter.netlify.app/">3kh0</button>
 		
 	</div>
 	
